@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Nav,
   NavLink,
@@ -7,6 +8,7 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+
 
 const Navbar = () => {
   return (
@@ -36,6 +38,8 @@ const Navbar = () => {
           <NavBtnLink to='/signin'>Sign In</NavBtnLink>
         </NavBtn>
       </Nav>
+    
+      
     </>
   );
 };
